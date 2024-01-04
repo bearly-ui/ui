@@ -38,15 +38,15 @@ the following enumerations if you prefer:
 ```
 
 ### Variant
-There are two options for **variant** -- `glow` and `bordered`. The default is `glow`.
-These are interchangeable with `Bearly\Ui\AlertVariant::Glow` and `Bearly\Ui\AlertVariant::Bordered` enumerations.
+There are two options for **variant** -- `glow` and `outline`. The default is `glow`.
+These are interchangeable with `Bearly\Ui\Variant::Glow` and `Bearly\Ui\Variant::Outline` enumerations.
 
 ```html +demo title={Available Variants} previewClasses={space-y-6}
 <x-ui::alert>This alert is the glow variant</x-ui::alert>
-<x-ui::alert variant="bordered">This alert is the border variant</x-ui::alert>
-<x-ui::alert color="success" variant="bordered">This alert is the border variant</x-ui::alert>
-<x-ui::alert color="warning" variant="bordered">This alert is the border variant</x-ui::alert>
-<x-ui::alert color="error" variant="bordered">This alert is the border variant</x-ui::alert>
+<x-ui::alert variant="outline">This alert is the outline variant</x-ui::alert>
+<x-ui::alert color="success" variant="outline">This alert is the outline variant</x-ui::alert>
+<x-ui::alert color="warning" variant="outline">This alert is the outline variant</x-ui::alert>
+<x-ui::alert color="error" variant="outline">This alert is the outline variant</x-ui::alert>
 ```
 
 ### Dismissable

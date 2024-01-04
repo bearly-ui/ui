@@ -6,7 +6,7 @@ return [
         'Configuration' => '/docs/configuration',
     ],
     'Components' => [
-        '☑️ Alerts' => '/docs/alerts',
+        '🚧 ️ Alerts' => '/docs/alerts',
         '☑️ Buttons' => '/docs/buttons',
         '🚧 Cards' => '/docs/cards',
         '🚧 Context Menus' => '/docs/context-menus',

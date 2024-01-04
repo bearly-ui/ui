@@ -6,7 +6,6 @@ enum Variant: string
 {
     use Comparable;
 
-    case Bordered = 'bordered';
     case Ghost = 'ghost';
     case Glow = 'glow';
     case Gradient = 'gradient';

@@ -11,4 +11,5 @@ enum Color: string
     case Success = 'success';
     case Warning = 'warning';
     case Error = 'error';
+    case None = 'none';
 }
